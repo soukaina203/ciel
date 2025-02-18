@@ -19,3 +19,11 @@ login:
 landing:
     path: /landing
     controller: App\Controller\userController::index
+
+sujets:
+    path: /sujets
+    controller: App\Controller\SujetController::index
+
+reponses:
+    path: /reponses
+    controller: App\Controller\ReponseController::index

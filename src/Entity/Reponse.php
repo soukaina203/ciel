@@ -64,7 +64,7 @@ class Reponse
         return $this;
     }
     #[ORM\Column]
-    private ?bool $isReported = null;
+    private ?bool $isReported = false;
     
     public function isReported(): ?bool
     {
