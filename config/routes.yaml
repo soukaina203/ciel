@@ -3,3 +3,19 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+welcome:
+    path: /
+    controller: App\Controller\welcomeController::index
+
+app_register:
+    path: /register
+    controller: App\Controller\RegistrationController::register
+
+login:
+    path: /login
+    controller: App\Controller\SecurityController::login
+
+landing:
+    path: /landing
+    controller: App\Controller\userController::index
